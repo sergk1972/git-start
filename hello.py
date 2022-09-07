@@ -1,8 +1,14 @@
 def summary(x, y):
     return x + y
 
-def minus(*args):
+def minus(x, y):
     return x - y
+
+def multiply(*args):
+    z = 1
+    for num in args:
+        z *= num
+    return z
 
 def devine(x, y):
     if y != 0:
